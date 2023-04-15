@@ -31,8 +31,7 @@ resource "aws_instance" "instance" {
   
 
   tags = {
-    Name = "instance
-    "
+    Name = "instance"
   }
 }
 
