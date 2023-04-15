@@ -23,7 +23,7 @@ resource "aws_instance" "instance2" {
   }
 }
 
-resource "aws_instance" "instance3" {
+resource "aws_instance" "instance" {
   ami                    = var.ami_id
   instance_type          = var.instance_type
   vpc_security_group_ids = [aws_security_group.web_server_sg.id]
@@ -31,7 +31,8 @@ resource "aws_instance" "instance3" {
   
 
   tags = {
-    Name = "instance3"
+    Name = "instance
+    "
   }
 }
 
